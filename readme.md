@@ -1,71 +1,34 @@
-### Initial Request:
+# Testing AI Company
 
-* User requested an app for tracking daily steps, providing workout plans, and integrating with health trackers.
+### Product Spec (CEO, Product Managers, developers, Users)
 
-### PM-CEO Discussion:
+prompt:
+```md
+User requested an app for tracking daily steps, providing workout plans, and integrating with health trackers.
+```
 
-* **PM Focus:**  
-    * Define target audience, analyze competitive landscape, and determine monetization strategy.
-    * Prioritize key features for the Minimum Viable Product (MVP).
-    * Emphasize a user-centric approach.
-* **CEO Focus:**
-    * Emphasize innovation and differentiation from competitors.
-    * Refine the target audience to identify a specific niche.
-    * Explore diverse monetization strategies beyond the freemium model.
-    * Encourage integration of cutting-edge technology like AI and wearables.
+View file [Product Summary](./product_summary.md)
 
-### Developer Discussions:
+### Ad Script (Producers, Users)
 
-* **Jack:**
-    * Advocate for detailed user personas and a tiered approach to unlocking premium features.
-    * Propose an iterative approach to AI integration, starting with simpler functionalities.
-    * Prioritize integration with popular wearable platforms.
-* **Anna:**
-    * Propose targeting "performance-oriented individuals" as a specific niche.
-    * Suggest leveraging AI and wearables to provide real-time performance analysis and personalized recommendations.
-    * Recommend a tiered subscription model with progressive features, including partnerships with fitness brands.
-    * Emphasize the importance of integrating with advanced wearable technology.
-* **Jack (re: Anna):**
-    * Agree with targeting performance-oriented individuals but suggest further research to understand their specific needs.
-    * Suggest focusing on post-workout analysis in the MVP and exploring real-time analysis later.
-    * Emphasize the need for clear value propositions for each tier of the subscription model.
-    * Prioritize integration with popular wearable platforms initially, exploring specialized devices later.
-* **Anna (re: Jack):**
-    * Suggest exploring alternative research methods (data analysis, user surveys) initially while planning for in-depth user interviews later.
-    * Propose incorporating simplified real-time feedback in the MVP, focusing on a specific, impactful metric.
-    * Advocate for focusing on partnerships and exclusive content for the premium tier.
-    * Encourage concurrent exploration of newer technologies while prioritizing popular platforms for the initial release.
+prompt:
+```md
+Create a 30-second TV commercial for an app for tracking daily steps, providing workout plans, and integrating with health trackers.
+```
 
-### Final Agreed-Upon Specifications:
+Output: View file [Ad Script](./ad_script.md)
 
-* **Target Audience:** Performance-oriented individuals actively training for a specific sport, event, or fitness goal.
-* **USP:** Comprehensive post-workout analysis with personalized recommendations, providing actionable insights.
-* **MVP Features:**
-    * Step Tracking
-    * Workout Tracking
-    * Post-Workout Analysis
-    * Personalized Workout Plans
-    * Health Tracker Integration (Fitbit, Apple Health, Google Fit)
-    * Progress Tracking
-* **Monetization:** Tiered subscription model:
-    * **Free Tier:** Core features.
-    * **Premium Tier:** Personalized training programs, coaching sessions, community access, partnerships.
-* **Technology:** Prioritize integration with popular platforms for the MVP; create an "innovation team" to research and test newer technologies. 
+### Image Gen / Marketing (Prompt Engineers)
 
-### Notable User Feedback:
+##### prompt
+```md
+fitness app that tracks daily steps, provides workout plans, and integrates with health trackers. The ad should target adults aged 25-45, specifically busy professionals and parents, who need help achieving their health and fitness goals. The message should emphasize that the app celebrates small victories and empowers users to live healthier lives.
+```
 
-* John, a tech-savvy fitness enthusiast, emphasized the need for:
-    * Detailed post-workout analysis with customized recommendations.
-    * Customizable training plans with input from certified coaches.
-    * Integrated virtual coaching sessions with certified professionals.
-    * A community forum for high-performance athletes with features like challenges and leaderboards.
-    * Exploration of future integration with biofeedback sensors and AI-powered coaching.
+##### Output Prompt:
+```md
+A single model, radiating confidence and joy, is standing in a whimsical organic cityscape built entirely from repurposed natural materials like bamboo, wood, and stone. The buildings have a fluid, organic design, blending seamlessly with the surrounding gardens and greenery. The model is playfully interacting with a whimsical, nature-inspired installation made from recycled materials, perhaps climbing a vine-covered structure or lounging on a natural platform overlooking a garden. The clothing is airy and flowing, made from natural materials like linen or organic cotton. The designs incorporate nature-inspired elements like intricate floral patterns, subtle leaf motifs, or textures mimicking wood or bark. The fabric flows gracefully, showcasing the texture and craftsmanship. The colors are a nuanced blend of earthy tones like terracotta, deep greens, and warm yellows, accented with pops of vibrant coral and turquoise. The lighting is soft and natural, with dappled sunlight filtering through the foliage, creating a warm, inviting glow. The art style is photorealistic, with a slightly dreamy, ethereal quality. Minimal text, emphasizing the brand name and a tagline like 'Sustainable Style, Rooted in Nature,' is visible in a simple and elegant font. The overall image evokes a sense of playful innovation, sustainable fashion, and a vibrant, summery spirit.
+```
 
-### Lessons Learned & Next Steps:
-
-* **Continuous Research:**  The importance of ongoing user research to refine the target audience and ensure features meet their specific needs is highlighted.
-* **Balanced Innovation:**  The product team agrees to prioritize achievable features for the MVP while exploring future integration of cutting-edge technologies.
-* **Phased Approach:**  A phased approach to monetization is deemed most effective, offering core features initially and gradually introducing premium features based on user feedback and market demand.
-* **Dedicated Innovation:**  The creation of a dedicated "innovation team" demonstrates a proactive strategy to remain at the forefront of technological advancements in the fitness app space.
-
-This summary showcases the collaborative process of product development, from initial user request to final specifications, considering diverse perspectives and fostering a commitment to innovation. The feedback from the CEO, developers, and user emphasize the crucial role of ongoing research, user-centric design, and a strategic approach to implementing cutting-edge technologies.
+##### Image generated:
+![Output AD Image](./output.png)
